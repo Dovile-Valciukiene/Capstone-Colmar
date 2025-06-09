@@ -1,14 +1,16 @@
 html {
-    margin-top: 0;
+    margin: 0px;
     
 }
 
 header {
     margin-top: 0px;
+    top: 0px;
     position: fixed;
     height: 64px;
     display: inline-flex;
     width: 100%;
+    background-color: white;
 }
 
 .logo {
@@ -31,9 +33,10 @@ header {
     margin-right: 24px;
 }
 
-a {
+.navbar a {
     display: block;
     margin-left: 16px;
+    font-size: 15px;
 }
 
 .navbarImg {
@@ -65,28 +68,42 @@ a {
     }
     }
 
+
+.left {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.right {
+    width: 40%;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+
+}
+
+.smallFont {
+    font-size: 10px;
+}
+
+
 .banner {
     margin-top: 65px;
     display: inline-flex;
     background-color: rgb(199, 198, 198);
 }
 
-.bannerImg {
-    width: 60%;
-    height: auto;
-    margin: 32px 24px;
-}
 
-.describe {
+#describe {
     display: inline-block;
     flex-direction: column;
     align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-h2 {
-    font-size: 38px;
+#describe h2 {
+    font-size: 30px;
     margin-top: 0px;
 }
 
@@ -99,6 +116,7 @@ h2 {
     text-decoration: none;
     margin: 0px;
 }
+
 
 @media only screen and (max-width: 480px) {
     .banner {
@@ -114,14 +132,14 @@ h2 {
     margin: 0px;
     }
 
-    .describe {
+    #describe {
     display: inline-block;
     flex-direction: column;
     align-content: center;
     margin-left: 16px;
     }
 
-    h2 {
+    #describe h2 {
     font-size: 32px;
     margin-top: 32px;
     }
@@ -140,6 +158,35 @@ h2 {
     margin: 24px 0px 32px 0px;
     }
 }
+
+.main {
+    display: inline-flex;
+    width: 100%;
+}
+
+.right {
+    align-content: center;
+}
+.part {
+    display: inline-flex;
+}
+
+.part img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.part h5, p {
+    margin:0px 0px 8px;
+}
+
+.part a {
+   font-size: 10px;
+   margin: 0;
+}
+
+
 
 
 
