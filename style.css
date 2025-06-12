@@ -258,7 +258,6 @@ header {
     text-align: center;
     width: 100%;
     margin-top: 32px;
-
 }
 
 .list {
@@ -305,4 +304,44 @@ header {
 
 }
 
+.exhibitH2 {
+    text-align: center;
+    margin: 32px 0px;
+}
 
+.exhibit {
+    display: inline-flex;
+}
+
+
+.video {
+    width: 100%;
+    margin: 0px;
+}
+
+.exhibit .right {
+    align-content: baseline;
+}
+
+.exhibit .left {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+   .exhibit .right {
+        display: none;
+  }
+}
+
+footer {
+    display: inline-flex;
+    margin-top: 16px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.terms {
+    flex-grow: 1;
+    justify-content: end;
+    text-align: end;
+}
