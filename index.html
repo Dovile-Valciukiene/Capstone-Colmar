@@ -37,24 +37,9 @@
         <div class="right" id="describe">
             <h2>Learn something new everyday</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a onclick="changeColor()" class="button">Start here</a>
+            <a class="button" href="https://www.w3schools.com/css/css3_buttons.asp">Start here</a>
         </div>
     </div>
-
-    <script>
-        function getRandomColor(){
-          let letters = '0123456789ABCDEF';
-          let color = '#';
-          for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-          }
-          return color;
-        }
-        function changeColor(){
-          let newColor = getRandomColor();
-          document.body.style.backgroundColor = newColor;
-        }
-    </script>
 
     <!--The main part describing academy-->
     <div class="main">
