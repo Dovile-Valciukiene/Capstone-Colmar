@@ -68,6 +68,21 @@ header {
     }
     }
 
+ul {
+    padding-top: 65px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: "/"
+}
+
+.breadcrumb a:hover {
+    color: grey;
+}
 
 .left {
     width: 60%;
@@ -93,7 +108,6 @@ header {
 }
 
 .banner {
-    margin-top: 65px;
     display: inline-flex;
     background-color: rgb(199, 198, 198);
 }
